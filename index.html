@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>tmx-med</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="intro_container">
+
+            <div class="intro_box">
+
+                <div class="header_container">
+
+                    <img src="/images/fund.svg" alt="" class="img_fund">
+
+                    <a href="#form" class="scroll2form1">
+                        <div class="button_scroll2form1">
+                            <h2 class="text_scroll2form1">
+                                Оставить заявку
+                            </h2>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="intro_text_container">
+                    <h1 class="text_h1">
+                        Томографическое оборудование
+                    </h1>
+                </div>
+
+                <div class="button_scroll2description">
+                    <a href="#description" class="scroll2description">
+                        <h2 class="text_scroll2description">
+                            Смотреть описание
+                        </h2>
+                        <img src="images/Vector.svg" alt="vector_down" class="vector_down">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="description_container" id="description">
+
+            <div class="title_text_container">
+                <h2 class="text_title">
+                    Оптический микротомограф
+                </h2>
+            </div>
+
+            <div class="img_and_p1_container">
+
+                <div class="img_container">
+                    <img src="images/apparatus.png" alt="apparatus" class="img">
+                </div>
+
+                <div class="p1_container">
+
+                    <div class="text_p1_1">
+                        <b>Оптический микротомограф</b> – это новый метод, позволяющий исследовать динамические процессы
+                        в живой клетке.
+                    </div>
+
+                    <div class="text_p1_2">
+                        Так как клетка является фазовым объектом, то ее можно измерить
+                        интерференционным методом. Разрешающая способность составляет порядка <b>1 мкм</b>.
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="p2_container">
+                <div class="text_p2">
+                    <i>Световая волна, проходящая через прозрачный объект, изменяет фазу, содержащую
+                        информацию об оптической разности хода излучения. Хотя суммарные изображения не являются
+                        истинными томограммами, они все же содержат полезную информацию об исследуемом объекте.
+                        Применение преобразования
+                        Гильберта позволяет выделить границы резких перепадов плотности или показателя преломления. </i>
+                </div>
+            </div>
+
+            <div class="p3_and_button_container">
+
+                <div class="p3_container">
+                    <div class="text_p3">
+                        Время, требуемое для получения <b>100 проекций</b>, составляет <b>~1 минуту</b>.
+                    </div>
+                </div>
+
+                <div class="button_scroll2form2">
+                    <a href="#form" class="scroll2form2">
+                        <h2 class="text_scroll2form2">
+                            Оставить заявку
+                        </h2>
+                        <img src="images/Vector2.svg" alt="vector_down" class="vector_down2">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="form">
+
+            <div class="form_container" id="form">
+
+                <form id="form" autocomplete="off">
+                    <div class="form_title_container">
+                        <div class="text_form_title">
+                            Заявка за звонок:
+                        </div>
+                    </div>
+
+                    <div class="fio_and_phone_container">
+
+                        <div class="fio_container">
+
+                            <div class="fio_text_container">
+                                <div class="text_fio">
+                                    ФИО
+                                </div>
+                            </div>
+
+                            <div class="fio_field_container">
+                                <input type="text" name="fio" id="fio" class="fio_input" autocomplete="off">
+                            </div>
+
+                        </div>
+
+                        <div class="phone_container">
+
+                            <div class="phone_text_container">
+                                <div class="text_phone">
+                                    Телефон*
+                                </div>
+                            </div>
+
+                            <div class="phone_field_container">
+                                <input type="tel" name="tel" id="tel" class="phone_input"
+                                    placeholder="+7(___) ___-__-__" autocomplete="off">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="button_and_warning_container">
+
+                        <div class="button_send_form_container">
+                            <button type="submit" id="button" class="button_submit">Отправить</button>
+                        </div>
+
+                        <div class="warning_container">
+                            <div class="text_warning">
+                                Нажимая на кнопку, вы даете согласие на обработку своих персональных данных
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <script src="js/inputmask.min.js"></script>
+        <script src="js/just-validate.min.js"></script>
+        <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
